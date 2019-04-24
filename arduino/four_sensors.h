@@ -1,0 +1,11 @@
+void sensors_setup();
+void setupUltrasound(int trigPin, int echoPin);
+double getUltrasound();
+void loopUltrasound();
+void setupPIR(int ledPin, int inputPin);
+long getPIR();
+void loopPIR();
+void setupDiTemp();
+float getDiTemp();
+void setupAnTemp();
+float getAnTemp();
